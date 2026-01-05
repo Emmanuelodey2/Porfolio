@@ -32,7 +32,7 @@ const Feedback = () => {
   };
 
   const openLinkedIn = () => {
-    const profileURL = "https://www.linkedin.com/in/YOURPROFILE/";
+    const profileURL = "https://www.linkedin.com/in/emmanuel-odey-23aa2227b/";
     window.open(profileURL, "_blank"); // opens LinkedIn profile
   };
   return (
