@@ -27,7 +27,7 @@ const Navbar = () => {
        
     ];
     return (
-        <div className="overflow-hidden font-[Inria-Serif] text-2xl">
+        <div className="overflow-hidden md:block hidden font-[Inria-Serif] text-2xl">
           <ul className="flex text-black  space-x-2 md:space-x-8">
             {nav.map((items, index) => (
               <Link
