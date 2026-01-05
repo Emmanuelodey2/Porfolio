@@ -33,7 +33,7 @@ const Navbar = () => {
               <Link
                 key={index}
                 href={items.path}
-                className="relative text-black group  hover:text-blue-900 transition-all duration-500"
+                className="relative text-black group text-sm md:text-lg hover:text-blue-900 transition-all duration-500"
               >
                                 <span className="absolute w-0 h-[2px] group-hover:w-full bottom-0 bg-blue-900 transition-all duration-500">
                                 </span>
