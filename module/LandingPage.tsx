@@ -13,7 +13,7 @@ const LandingPage = () => {
     <div className='w-screen overflow-hidden'>
      <Header />
      <Hero />
-     {/* <About/> */}
+     <About/>
      <Lang />
      <Project />
      <Feedback />
