@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const Hero = () => {
   return (
-    <section id='home' className=" bg-white overflow-hidden  h-[50vh] md:min-h-screen max-w-7xl mx-auto md:px-12 px-4 md:gap-20 gap-4 md:py-12 flex items-center rounded-b-xl md:flex-row flex-col-reverse justify-center">
+    <section id='home' className=" bg-white overflow-hidden  min-h-fit md:min-h-screen max-w-7xl mx-auto md:px-12 px-4 md:gap-20 gap-4 py-12 flex items-center rounded-b-xl md:flex-row flex-col-reverse justify-center">
       {/* Left content column */}
       <div className="  w-full  overflow-hidden md:space-y-6">
       {/* Placeholder for heading */}
@@ -13,8 +13,8 @@ const Hero = () => {
           Hi There 
           </h1>
           </div> 
-        <div className=" w-full flex flex-col gap-4" > 
-        <h1 className=" text-gray-900 text-5xl font- font-[Poppins] md:text-6xl">
+        <div className=" w-full flex flex-col gap-4 mb-12" > 
+        <h1 className=" text-gray-900 text-5xl  md:text-6xl">
         I&apos;m Emmanuel Odey
        
           </h1>

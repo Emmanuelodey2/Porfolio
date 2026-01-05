@@ -28,14 +28,14 @@ const Navbar = () => {
     ];
     return (
         <div className="overflow-hidden font-[Inria-Serif] text-2xl">
-          <ul className="hidden md:flex text-black space-x-8">
+          <ul className="flex text-black  space-x-2 md:space-x-8">
             {nav.map((items, index) => (
               <Link
                 key={index}
                 href={items.path}
-                className="relative text-black group font-medium hover:text-emerald-900 transition-all duration-800"
+                className="relative text-black group  hover:text-blue-900 transition-all duration-500"
               >
-                                <span className="absolute w-0 h-[2px] group-hover:w-full bottom-0 bg-emerald-900 transition-all duration-500">
+                                <span className="absolute w-0 h-[2px] group-hover:w-full bottom-0 bg-blue-900 transition-all duration-500">
                                 </span>
 
                 {items.link}
